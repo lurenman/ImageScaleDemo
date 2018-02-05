@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="com.example.lurenman.imagescaledemo.MainActivity">
+
+    <Button
+        android:id="@+id/bt_ScaleGestureDetector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScaleGestureDetector实现图片缩放" />
+    <Button
+        android:id="@+id/bt_PinchImageView"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PinchImageView实现图片缩放" />
+
+
+</LinearLayout>
